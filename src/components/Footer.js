@@ -1,5 +1,5 @@
 import '../styles/Footer.scss'
-import footerimg from '../images/footer.jpg'
+import footerimg from '../images/footer.svg'
 
 function Footer() {
     return (
