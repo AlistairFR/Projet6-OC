@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/apropos.scss';
+import './styles/about.scss';
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
 
