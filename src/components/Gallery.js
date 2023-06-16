@@ -5,7 +5,7 @@ function Gallery() {
     return(
         <main className='Gallery'>
             {LocationList.map((e) => (
-                <LocationCard key={e.id} id={e.id}  />
+                <LocationCard key={e.id} id={e.id} cover={e.cover} title={e.title} />
             ))}
         </main>
     )
