@@ -5,11 +5,11 @@ import '../styles/Gallery.scss';
 
 function Gallery() {
     return(
-        <main className='gallery'>
+        <div className='gallery'>
             {LocationList.map((e) => (
                 <LocationCard key={e.id} id={e.id} cover={e.cover} title={e.title} />
             ))}
-        </main>
+        </div>
     )
 }
 
