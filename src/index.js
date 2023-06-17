@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Landing from './components/Landing';
-import About from './components/About';
+import Landing from './pages/Landing';
+import About from './pages/About';
 import './styles/index.scss';
 
 

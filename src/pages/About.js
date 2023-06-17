@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../styles/About.scss';
-import NavBar from './Navbar';
-import Footer from './Footer';
+import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function About() {

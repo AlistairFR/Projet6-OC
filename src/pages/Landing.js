@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NavBar from './Navbar';
-import Footer from './Footer';
-import Main from './Main';
+import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Main from '../components/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function Landing() {
