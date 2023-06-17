@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Landing from './components/Landing';
+import About from './components/About';
 import './styles/index.scss';
-import NavBar from './components/Navbar';
-import Main from './components/Main';
-import Footer from './components/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NavBar />
-    <Main />
-    <Footer />
+    <Router>
+      <Routes>
+        <Route path="/about" component={<About />}></Route>
+        <Route path="/" element={<Landing />}></Route>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );

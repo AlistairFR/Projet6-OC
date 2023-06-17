@@ -1,15 +1,15 @@
 import '../styles/Navbar.scss'
 import kasalogo from '../images/kasa-logo.png'
-//import Link from '../../node_modules/react-router'
+import { BrowserRouter as Link} from 'react-router-dom';
 
 function NavBar() {
     return (
         <nav>
             <img src={kasalogo} alt="Logo de Kasa" />
-            <ul>
-                {/*<Link>Accueil</Link>
-                <Link>A Propos</Link>*/}
-            </ul>
+            <div>
+                <Link to="/">Accueil</Link>
+                <Link to="/about">A Propos</Link>
+            </div>
         </nav>
     )
 }
