@@ -1,6 +1,6 @@
 import '../styles/Navbar.scss'
 import kasalogo from '../images/kasa-logo.png'
-import { BrowserRouter as Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function NavBar() {
     return (
