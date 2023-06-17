@@ -11,7 +11,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/about" component={<About />}></Route>
+        <Route path="/about" element={<About />}></Route>
         <Route path="/" element={<Landing />}></Route>
       </Routes>
     </Router>
