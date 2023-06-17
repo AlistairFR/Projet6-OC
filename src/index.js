@@ -12,12 +12,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <NavBar />
       <Routes>
-        <NavBar />
         <Route path="/about" element={<About />}></Route>
         <Route path="/" element={<Landing />}></Route>
-        <Footer />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );
