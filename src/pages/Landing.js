@@ -1,16 +1,15 @@
-import React from 'react';
-import NavBar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Main from '../components/Main';
+import Banner from "../components/Banner";
+import Gallery from "../components/Gallery";
 
-function Landing() {
+import '../styles/Main.scss'
+
+function Main() {
     return (
-      <div className='Landing'>
-        <NavBar />
-        <Main />
-        <Footer />
-      </div>
+        <main className="main">
+            <Banner />
+            <Gallery />
+        </main>
     )
-  }
+}
 
-export default Landing;
+export default Main
