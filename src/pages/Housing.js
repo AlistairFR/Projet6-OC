@@ -14,8 +14,16 @@ function Housing() {
     }
     return(
         <div className="housingMain">
-            <Showcase />
-            <Infos />
+            <Showcase data={location.pictures} />
+            <Infos
+                id={location.id}
+                title={location.title}
+                place={location.location}
+                tags={location.tags}
+                rating={location.rating}
+                owner={location.host.name}
+                ownerImg={location.host.picture}
+            />
         </div>
     )
 }
