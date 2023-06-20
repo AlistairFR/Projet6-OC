@@ -6,9 +6,7 @@ import Infos from "../components/Infos"
 
 function Housing() {
     const { id } = useParams()
-    console.log(id)
     const location = LocationList.find((location) => location.id === id)
-    console.log(location)
     if (!location) {
         return <Error />
     }
