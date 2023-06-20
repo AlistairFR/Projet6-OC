@@ -3,7 +3,7 @@ import LocationList from "../data/logements.json"
 import Error from "../pages/Error"
 
 function Housing() {
-    const id = useParams()
+    const { id } = useParams()
     console.log(id)
     const location = LocationList.find((location) => location.id === id)
     console.log(location)
