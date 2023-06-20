@@ -9,13 +9,14 @@ import './styles/index.scss';
 import Housing from './pages/Housing';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/housing/" element={<Housing />}></Route>
+        <Route path="/housing/:id" element={<Housing />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/" element={<Landing />}></Route>
       </Routes>
