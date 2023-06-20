@@ -1,6 +1,8 @@
 import { useParams } from "react-router"
 import LocationList from "../data/logements.json"
 import Error from "../pages/Error"
+import Showcase from "../components/Showcase"
+import Infos from "../components/Infos"
 
 function Housing() {
     const { id } = useParams()
@@ -11,7 +13,10 @@ function Housing() {
         return <Error />
     }
     return(
-        <div>Page du logement {location.title}</div>
+        <div className="housingMain">
+            <Showcase />
+            <Infos />
+        </div>
     )
 }
 
