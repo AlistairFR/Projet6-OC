@@ -11,7 +11,7 @@ function Housing() {
         return <Error />
     }
     return(
-        <div>Page du logement ${location.title}</div>
+        <div>Page du logement {location.title}</div>
     )
 }
 
