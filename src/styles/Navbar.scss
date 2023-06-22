@@ -2,4 +2,19 @@ nav {
     margin: 0%;
     display: flex;
     justify-content: space-between;
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+
+    .NavBar-Links {
+        color: #ff6060;
+        margin-left: 40px;
+        font-size: 24px;
+    }
+
+    .NavBar-Links.active {
+        text-decoration: underline;
+    }
 }
