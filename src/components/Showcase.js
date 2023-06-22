@@ -1,6 +1,6 @@
 import { useState } from "react";
 import nextArrow from "../images/nextArrow.png"
-import previousArrow from "../images/previousarrow.png"
+import previousArrow from "../images/previousArrow.png"
 
 function Showcase(props) {
     const [current, setCurrent] = useState(0)
@@ -32,9 +32,9 @@ function Showcase(props) {
                         }
                         key={index}
                     >
-                        if (index === current) {
+                        {index === current && (
                             <img className="showcaseImage" src={image} alt=""/>
-                        }
+                        )}
                     </div>
                 )
             })}
