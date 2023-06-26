@@ -1,11 +1,10 @@
 import '../styles/Banner.scss'
-import bannerimg from '../images/bannerimg.jpg'
 
-function Banner() {
+function Banner( props ) {
     return (
         <div className='banner-container'>
-            <img src={bannerimg} alt=''/>
-            <h1>Chez vous, partout et ailleurs</h1>
+            <img src={props.bannerimg} alt={props.alt}/>
+            <h1>{props.title}</h1>
         </div>
     )
 }
