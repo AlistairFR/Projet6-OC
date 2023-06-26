@@ -7,7 +7,7 @@ import '../styles/Main.scss'
 function Main() {
     return (
         <main className="main">
-            <Banner title= 'Chez vous, partout et ailleurs' bannerimg = {bannerimg} />
+            <Banner title = 'Chez vous, partout et ailleurs' bannerimg = {bannerimg} />
             <Gallery />
         </main>
     )

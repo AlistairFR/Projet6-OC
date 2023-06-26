@@ -1,10 +1,12 @@
 import React from 'react';
+import Banner from "../components/Banner";
+import bannerimg from "../images/aboutbanner.jpg"
 import '../styles/About.scss';
 
 function About() {
   return (
     <div className='about'>
-      <div>Page A propos</div>
+      <Banner bannerimg = {bannerimg} />
     </div>
   )
 }
