@@ -4,6 +4,7 @@ import Error from "../pages/Error"
 import Showcase from "../components/Showcase"
 import Infos from "../components/Infos"
 import Collapse from "../components/Collapse"
+import '../styles/Housing.scss'
 
 function Housing() {
     const { id } = useParams()

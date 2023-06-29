@@ -1,6 +1,7 @@
 import { useState } from "react";
 import nextArrow from "../images/nextArrow.png"
 import previousArrow from "../images/previousArrow.png"
+import '../styles/Showcase.scss'
 
 function Showcase(props) {
     const [current, setCurrent] = useState(0)
@@ -27,8 +28,8 @@ function Showcase(props) {
                     <div
                         className={
                             index === current
-                                ? 'showcase_image_active'
-                                : 'showcase_image_inactive'
+                                ? 'showcaseImage_active'
+                                : 'showcaseImage_inactive'
                         }
                         key={index}
                     >

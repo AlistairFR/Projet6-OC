@@ -1,0 +1,26 @@
+.showcase-container {
+    position: relative;
+
+    .previousArrow  {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+
+    .nextArrow {
+        position: absolute;
+        top: 40%;
+        right: 5%;
+    }
+
+    .showcaseImage_active {
+        width: 100%;
+
+        .showcaseImage {
+            border-radius: 25px;
+            height: 415px;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
