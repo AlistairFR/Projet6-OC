@@ -27,7 +27,7 @@ function Housing() {
             <div className="housing-collapse-container">
                 <Collapse
                     label="Description"
-                    class="housing-collapse-container-description"
+                    class="location-collapse-container-description"
                     text={<p>{location.description}</p>}
                 />
                 <Collapse

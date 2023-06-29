@@ -1,4 +1,15 @@
 .housingMain {
+    margin: auto;
+    max-width: 1440px;
     margin-top: 50px;
     margin-bottom: 50px;
+
+    .housing-collapse-container {
+        display: flex;
+        justify-content: space-between;
+
+        .collapse {
+            width: 45%;
+        }
+    }
 }
