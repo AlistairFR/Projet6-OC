@@ -1,5 +1,6 @@
 import redStar from "../images/red-star.png"
 import greyStar from "../images/grey-star.png"
+import '../styles/Infos.scss'
 
 function Infos(props) {
     const rating = props.rating;
@@ -16,7 +17,7 @@ function Infos(props) {
     return (
         <div className="infosMain">
             <div className="infosMainLeft">
-                <div className="infosTitle">
+                <div className="infosTitleContainer">
                     <h1 className="infosTitle">{props.title}</h1>
                     <p className="infosLocation">{props.place}</p>
                 </div>
