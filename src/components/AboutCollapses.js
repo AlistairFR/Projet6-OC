@@ -1,6 +1,5 @@
 import Collapse from "./Collapse";
 import CollapseText from "../data/about.json";
-import "../styles/AboutCollapses.scss";
 
 function AboutCollapses() {
     return (
