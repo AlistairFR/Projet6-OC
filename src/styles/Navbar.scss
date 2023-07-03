@@ -18,3 +18,15 @@ nav {
         text-decoration: underline;
     }
 }
+
+@media screen and (max-width: 760px) {
+    nav {
+        img {
+            width: 145px;
+        }
+
+        .NavBar-Links {
+            font-size: 12px;
+        }
+    }
+}
