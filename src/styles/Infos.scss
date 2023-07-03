@@ -68,3 +68,57 @@
         }
     }
 }
+
+@media screen and (max-width: 760px) {
+    .infosMain {
+        flex-direction: column;
+
+        .infosMainLeft {
+            .infosTitleContainer {
+                .infosTitle {
+                    font-size: 18px;
+                }
+                .infosLocation {
+                    font-size: 14px;
+                }
+            }
+
+            .infosTagsList {
+                .infosTags {
+                    font-size: 10px;
+                    height: 16px;
+                }
+            }
+        }
+
+        .infosMainRight {
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+
+            .infosOwner {
+                margin-top: 0;
+                align-items: center;
+
+                .infosOwnerName {
+                    font-size: 12px;
+                }
+                .infosOwnerPicture {
+                    height: 32px;
+                    width: 32px;
+                }
+            }
+
+            .infosRating {
+                width: 98px;
+                margin-left: 0;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

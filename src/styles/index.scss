@@ -1,5 +1,5 @@
 body {
-  min-width: 375px;
+  min-width: 300px;
   margin: 8%;
   margin-top: 45px;
   margin-bottom: 0px;
@@ -9,4 +9,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    margin: 20px;
+    margin-bottom: 0;
+  }
 }

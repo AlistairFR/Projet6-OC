@@ -24,3 +24,17 @@
         text-decoration: underline;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .error-main h1 {
+        font-size: 96px;
+    }
+
+    .error-main p {
+        font-size: 18px;
+    }
+
+    .error-main .error-link {
+        font-size: 14px;
+    }
+}

@@ -58,6 +58,10 @@
 
 @media screen and (max-width: 760px) {
     .gallery {
+        padding: 0;
+        background: white;
         grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 25px;
     }
 }

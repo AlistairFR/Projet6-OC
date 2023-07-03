@@ -24,3 +24,16 @@
         }
     }
 }
+
+@media screen and (max-width: 760px) {
+    .showcase-container {
+        .previousArrow, .nextArrow {
+            width: 24px;
+        }
+        .showcaseImage_active {
+            .showcaseImage {
+                height: 255px;
+            }
+        }
+    }
+}

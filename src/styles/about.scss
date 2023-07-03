@@ -8,3 +8,27 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .about .banner-container {
+        height: 225px;
+    }
+
+    .about {
+        .collapses-container {
+            width: 100%;
+            .collapse-container {
+                margin-top: 20px;
+                padding: 0px 10px 0px 10px;
+
+                h2 {
+                    font-size: 13px;
+                }
+            }
+
+            .collapse-text {
+                font-size: 12px;
+            }
+        }
+    }
+}
