@@ -1,9 +1,12 @@
 import '../styles/Footer.scss'
-import footerimg from '../images/footer.svg'
+import footerimg from '../images/footerLogo.png'
 
 function Footer() {
     return (
-        <img id="footerimg" src={footerimg} alt=''/>
+        <footer>
+            <img src={footerimg} alt=''/>
+            <p>© 2020 Kasa. All rights reserved</p>
+        </footer>
     )
 }
 
