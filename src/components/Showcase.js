@@ -23,6 +23,9 @@ function Showcase(props) {
         <section className="showcase-container">
             <img className="previousArrow" src={previousArrow} alt="Flèche précédente" onClick={previousImage}/>
             <img className="nextArrow" src={nextArrow} alt="Flèche suivante" onClick={nextImage}/>
+            <span className="showcase-count">
+                {current + 1}/{props.data.length}
+            </span>
             {props.data.map((image, index) => {
                 return(
                     <div
