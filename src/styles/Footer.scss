@@ -2,6 +2,7 @@ footer {
     width: 100vw;
     position: relative;
     margin-left: -8vw;
+    margin-right: -8vw;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -17,6 +18,7 @@ footer {
 
 @media screen and (max-width: 760px) {
     footer {
-        margin-left: -5vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
     }
 }
